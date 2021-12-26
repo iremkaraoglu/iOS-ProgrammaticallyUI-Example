@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		302C72D5276BD6B900C551BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302C72D4276BD6B900C551BC /* AppDelegate.swift */; };
-		302C72D7276BD6B900C551BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302C72D6276BD6B900C551BC /* SceneDelegate.swift */; };
 		302C72D9276BD6B900C551BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302C72D8276BD6B900C551BC /* ViewController.swift */; };
-		302C72DC276BD6B900C551BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302C72DA276BD6B900C551BC /* Main.storyboard */; };
 		302C72DE276BD6B900C551BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 302C72DD276BD6B900C551BC /* Assets.xcassets */; };
 		302C72E1276BD6B900C551BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302C72DF276BD6B900C551BC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +16,7 @@
 /* Begin PBXFileReference section */
 		302C72D1276BD6B900C551BC /* Koala-Programmatically.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Koala-Programmatically.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		302C72D4276BD6B900C551BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		302C72D6276BD6B900C551BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		302C72D8276BD6B900C551BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		302C72DB276BD6B900C551BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		302C72DD276BD6B900C551BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		302C72E0276BD6B900C551BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		302C72E2276BD6B900C551BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,9 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				302C72D4276BD6B900C551BC /* AppDelegate.swift */,
-				302C72D6276BD6B900C551BC /* SceneDelegate.swift */,
 				302C72D8276BD6B900C551BC /* ViewController.swift */,
-				302C72DA276BD6B900C551BC /* Main.storyboard */,
 				302C72DD276BD6B900C551BC /* Assets.xcassets */,
 				302C72DF276BD6B900C551BC /* LaunchScreen.storyboard */,
 				302C72E2276BD6B900C551BC /* Info.plist */,
@@ -127,7 +121,6 @@
 			files = (
 				302C72E1276BD6B900C551BC /* LaunchScreen.storyboard in Resources */,
 				302C72DE276BD6B900C551BC /* Assets.xcassets in Resources */,
-				302C72DC276BD6B900C551BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,21 +133,12 @@
 			files = (
 				302C72D9276BD6B900C551BC /* ViewController.swift in Sources */,
 				302C72D5276BD6B900C551BC /* AppDelegate.swift in Sources */,
-				302C72D7276BD6B900C551BC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		302C72DA276BD6B900C551BC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				302C72DB276BD6B900C551BC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		302C72DF276BD6B900C551BC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,9 +276,10 @@
 				DEVELOPMENT_TEAM = UJDGTP9Q95;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Koala-Programmatically/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,9 +305,10 @@
 				DEVELOPMENT_TEAM = UJDGTP9Q95;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Koala-Programmatically/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
